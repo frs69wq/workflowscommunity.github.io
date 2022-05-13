@@ -1,0 +1,384 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title> Backend Software Engineer - Workflows Community Initiative</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="keywords" content="workflow, hpc, science, exascale, fair, reproducibility" />
+<meta name="author" content="Rafael Ferreira da Silva" />
+<meta name="author" content="Henri Casanova" />
+<meta name="author" content="Kyle Chard" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Backend Software Engineer" />
+<meta name="author" content="Workflows Community Initiative" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Job Description" />
+<meta property="og:description" content="Job Description" />
+<meta property="og:site_name" content="Workflows Community Initiative" />
+<meta property="og:image" content="https://workflows.community/images/wci-default-card.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-05-13T12:13:44+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://workflows.community/images/wci-default-card.png" />
+<meta property="twitter:title" content="Backend Software Engineer" />
+<meta name="twitter:site" content="@WorkflowsCI" />
+<meta name="twitter:creator" content="@WorkflowsCI" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Workflows Community Initiative"},"dateModified":"2022-05-13T12:13:44+00:00","datePublished":"2022-05-13T12:13:44+00:00","description":"Job Description","headline":"Backend Software Engineer","image":"https://workflows.community/images/wci-default-card.png","mainEntityOfPage":{"@type":"WebPage","@id":"/jobs/funcx-dev/"},"url":"/jobs/funcx-dev/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<!-- Prefetch DNS for faster page speed -->
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//google-analytics.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
+<link rel="dns-prefetch" href="//ajax.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
+<!-- icons -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/favicon.ico" type="image/x-icon" />
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css" />
+<link rel="stylesheet" href="/assets/css/main.css" />
+
+<!-- scripts -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.countTo.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $('.dropdown-toggle').dropdown();
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-271163E6PP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-271163E6PP');
+</script>
+
+<!-- MapBox -->
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <header id="header">
+    <h1><a href="/"><img src="/images/workflows-community-logo-horizontal.png" style="width: 10em" alt="" /></a></h1>
+    <nav class="links">
+        <ul>
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="workflowsDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Resources
+                </a>
+                <div class="dropdown-menu" aria-labelledby="workflowsDropdown">
+                    <a class="dropdown-item" href="/systems">
+                        <i class="fas fa-dot-circle color-1"></i> Workflow Systems</a>
+                    <a class="dropdown-item" href="/registries">
+                        <i class="fas fa-dot-circle color-2"></i> Workflow Registries</a>
+                    <a class="dropdown-item" href="/education">
+                        <i class="fas fa-dot-circle color-6"></i> Education and Training</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="researchDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Research
+                </a>
+                <div class="dropdown-menu" aria-labelledby="researchDropdown">
+                    <!--
+                    <a class="dropdown-item" href="/task_forces">
+                        <i class="fas fa-dot-circle color-3"></i> Task Forces</a>
+                    -->
+                    <a class="dropdown-item" href="/groups">
+                        <i class="fas fa-dot-circle color-3"></i> Working Groups</a>
+                    <a class="dropdown-item" href="/frameworks">
+                        <i class="fas fa-dot-circle color-5"></i> Research Frameworks</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="eventsDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Events
+                </a>
+                <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+                    <a class="dropdown-item" href="/summits">
+                        <i class="fas fa-dot-circle color-6"></i> Workflows Community Summits</a>
+                    <a class="dropdown-item" href="/events">
+                        <i class="fas fa-dot-circle color-7"></i> Workflows-Related Events</a>
+                </div>
+            </li>
+            <li><a href="/members" title="List of Members">Members</a></li>
+            <li><a href="/jobs" title="Jobs Market">Jobs</a></li>
+            <li><a href="/about" title="Who are we?">About</a></li>
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            <li>
+                <a href="/contact" class="getinvolved">Get Involved!</a>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+        <!-- Menu -->
+<section id="menu">
+
+    <!-- Links -->
+    <section>
+        <ul class="links">
+            <li>
+                <a href="/systems">
+                    <h3>Workflow Systems</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/registries">
+                    <h3>Workflow Registries</h3>
+                </a>
+            </li>
+            <!--
+            <li>
+                <a href="/task_forces">
+                    <h3>Task Forces</h3>
+                </a>
+            </li>
+            -->
+            <li>
+                <a href="/groups">
+                    <h3>Working Groups</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/frameworks">
+                    <h3>Research Frameworks</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/summits">
+                    <h3>Workflows Community Summits</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/events">
+                    <h3>Workflow-Related Events</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/members">
+                    <h3>Members</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/jobs">
+                    <h3>Jobs</h3>
+                </a>
+            </li>
+            <li>
+                <a href="/about">
+                    <h3>About</h3>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</section>
+
+        <!-- Main -->
+        <div id="main">
+            <article class="post">
+    <header>
+        <div class="title" style="margin-bottom: -1em">
+            <h2 style="margin-bottom: 0.5em">Backend Software Engineer</h2>
+            <i>funcX/Globus (University of Chicago)</i><br />
+            
+        </div>
+        <div class="meta">
+            <img src="https://mc-1b49d921-43a2-4264-88fd-647979-cdn-endpoint.azureedge.net/-/jssmedia/images/logo-background.svg" style="max-height: 3em; max-width: 10em;" alt="Backend Software Engineer" />
+            
+            <br /><br /><a href="https://www.globus.org/jobs/backend-software-engineer-funcx" target="_blank" class="apply"><i class="fas fa-check"></i> Apply Now</a>
+            
+        </div>
+    </header>
+
+    <main class="job-content">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <h2 id="job-description">Job Description</h2>
+
+<p>As a member of the Globus software development team the focus of this position is to contribute to the development of a new Function as a Service (FaaS) product called <a href="www.funcx.org">funcX</a>. FuncX is designed to enable managed function execution across a distributed ecosystem of function execution endpoints deployed on heterogeneous computers: from laptops to supercomputers. We’re looking for skilled Python developers to create and operate the funcX service and endpoint software through the use of advanced technologies and techniques from Web and Cloud computing.</p>
+
+<h2 id="globus-overview">Globus Overview</h2>
+
+<p><a href="www.globus.org">Globus</a> is a sustainable, non-profit business within The University of Chicago delivering solutions to the research community worldwide. Globus develops and provides critical services that support scientific research for governmental, academic, and commercial organizations in a wide range of disciplines including life sciences, physics, and astronomy.  We develop, operate, and sell commercial-quality, cloud-based software application and platform services used by 10s of thousands of researchers to manage their large–and growing–data management challenges. We have offices located at 401 North Michigan Avenue in the heart of downtown Chicago and remote employees who work-from-home.  Globus, together with Globus Labs, a research group within the University of Chicago, and part of the Data Science and Learning Division at Argonne National Labs, develop and deploy cutting edge technologies to solve new challenges facing the scientific community and enable break-through scientific discoveries.</p>
+
+<h3 id="responsibilities">Responsibilities:</h3>
+
+<ul>
+  <li>Architecture and Design - contributes to the definition and documentation of requirements, architecture and design of secure, scalable, asynchronous, data access services, based on expanded knowledge of principles of API design, asynchronous processes, service deployment and delivering highly available services.</li>
+  <li>Software Development - develops, tests, documents, deploys and maintains high-quality software on a cloud-based platform, including REST interfaces, command-line interfaces, and socket-based services; works with other service and client development teams to integrate and design cross-service features.</li>
+  <li>Support and Documentation - works in close collaboration with the Globus front line support and professional services teams, and directly with end users, to provide technical support services; documents standard operating procedures and protocols.</li>
+  <li>Team Coordination and Professional Development - maintains a working knowledge of relevant software technologies being used in scientific and commercial communities; contributes to  project planning and project reporting, and recruitment.</li>
+  <li>Investigates, analyzes and resolves day-to-day technical problems using standard procedures.</li>
+  <li>Works with stakeholders to gather and analyze requirements for developmental programs. Receives a moderate level of guidance to design applications to meet University and business requirements.</li>
+  <li>Performs other related work as needed.</li>
+</ul>
+
+<h3 id="basic-qualifications">Basic Qualifications:</h3>
+
+<ul>
+  <li>A college or university degree in related field.</li>
+  <li>Knowledge and skills developed through 2-5 years of work experience in a related job discipline..</li>
+</ul>
+
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="job-panel">
+                    <span class="light-gray">
+                        <i class="fas fa-clock"></i>&nbsp;&nbsp;Application Deadline<br />
+                        <strong>Apr 20, 2022</strong>
+                        <br /><br />
+                        <i class="fas fa-map-marker"></i>&nbsp;&nbsp;&nbsp;Location<br />
+                        <strong>Chicago, IL (or Remote)</strong>
+                        <br /><br />
+                        <i class="fas fa-briefcase"></i>&nbsp;&nbsp;Employment Type<br />
+                        <strong>Full-time</strong>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</article>
+        </div>
+
+        <section id="sidebar">
+
+    <!-- Intro -->
+    <section id="intro">
+        <a href="/" class="logo"><img src="/images/workflows-community-logo.png" alt="" style="max-width: 20em" /></a>
+
+        <ul class="icons">
+            <li>
+                <a href="https://www.youtube.com/channel/UCqCnXqWqKe9vF6cqKOj1CYw" target="_blank"
+                    class="fa-stack fa-2x" style="font-size: 1.5em">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                    <i class="fab fa-youtube fa-stack-1x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:contact@workflows.community" class="fa-stack fa-2x" style="font-size: 1.5em">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                    <i class="fa fa-envelope fa-stack-1x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com/WorkflowsCI" target="_blank" class="fa-stack fa-2x"
+                    style="font-size: 1.5em">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                    <i class="fab fa-twitter fa-stack-1x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://join.slack.com/t/workflowscommunity/shared_invite/zt-14l57ruzl-cCue46GoRt_4txhXfYHrtA"
+                    target="_blank" class="fa-stack fa-2x" style="font-size: 1.5em">
+                    <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                    <i class="fab fa-slack fa-stack-1x"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- About -->
+    <div class="blurb">
+        <p>The goal of the <strong>Workflows Community Initiative (WCI)</strong> is to bring the workflows community
+            together (<i>users, developers, researchers</i>, and <i>facilities</i>) to provide community resources and
+            capabilities to enable scientists and workflow systems developers to discover software products, related
+            efforts, events, technical reports, etc. and engage in community-wide efforts to tackle workflows grand
+            challenges.
+        </p>
+    </div>
+
+    <!-- Tweets -->
+    <section>
+        <div class="mini-post" style="padding: 0">
+            <div class="twitter-header">
+                <i class="fab fa-twitter"></i>&nbsp;&nbsp;&nbsp;@WorkflowsCI
+            </div>
+            <a class="twitter-timeline" data-lang="en" data-height="60em" data-width="100%" data-theme="light"
+                data-chrome="nofooter noheader" href="https://twitter.com/WorkflowsCI">Tweets by WorkflowsCI</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </section>
+
+    <section id="footer">
+    <p class="copyright" style="margin-bottom: 1em">
+        &copy;2022 Workflows.Community Initiative
+    </p>
+    <ul class="icons" style="margin-top: 0">
+        <li>
+            <a href="https://www.youtube.com/channel/UCqCnXqWqKe9vF6cqKOj1CYw" target="_blank"
+                class="fa-stack fa-2x" style="font-size: 1em">
+                <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                <i class="fab fa-youtube fa-stack-1x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:contact@workflows.community" class="fa-stack fa-2x" style="font-size: 1em">
+                <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                <i class="fa fa-envelope fa-stack-1x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="http://twitter.com/WorkflowsCI" target="_blank" class="fa-stack fa-2x"
+                style="font-size: 1em">
+                <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://join.slack.com/t/workflowscommunity/shared_invite/zt-14l57ruzl-cCue46GoRt_4txhXfYHrtA"
+                target="_blank" class="fa-stack fa-2x" style="font-size: 1em">
+                <i class="fa fa-circle fa-stack-2x" style="color: #fff"></i>
+                <i class="fab fa-slack fa-stack-1x"></i>
+            </a>
+        </li>
+    </ul>
+    
+    <p class="copyright" style="font-size: 0.6em; margin-top: 2em !important;">
+    </p>
+    <p class="copyright" style="font-size: 0.6em">
+    </p>
+</section>
+
+
+</section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
